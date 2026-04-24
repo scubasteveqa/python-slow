@@ -71,7 +71,7 @@ def server(input, output, session):
             print(l)
         return l
 
-time.sleep(60)
+time.sleep(20)
 app = App(app_ui, server)
 
 def run(input: list[str]) -> str:
