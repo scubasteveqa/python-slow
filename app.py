@@ -5,6 +5,7 @@ import psutil
 import subprocess
 import sys
 import time
+import numpy
 
 from shiny import App, reactive, render, ui
 from urllib.parse import urlparse
