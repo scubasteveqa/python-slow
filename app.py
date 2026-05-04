@@ -5,7 +5,7 @@ import psutil
 import subprocess
 import sys
 import time
-import numpy
+import pytorch
 
 from shiny import App, reactive, render, ui
 from urllib.parse import urlparse
